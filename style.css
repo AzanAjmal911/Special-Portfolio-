@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background: linear-gradient(rgba(218, 41, 41, 0.986), rgb(64, 64, 228));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 3px 5px 5px 3px rgb(148, 148, 148);
+}
+
+.logo h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-transform: uppercase;
+    color: white;
+}
+
+.menu a{
+    color: white;
+    font-weight: bolder;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-transform: uppercase;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+.menu a:hover{
+    color: black;
+    background-color:  burlywood;
+    transition: 0.5s;
+}
+
+.btn button{
+    background-color: rgb(43, 150, 177);
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 50px;
+    width: 120px;
+}
+
+
+
+.btn button:hover{
+    background-color: green;
+    color:black;
+    transition: 0.5s;
+}
+
+.container{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(136, 185, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content-left{
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    padding-top: 80px;
+}
+.content-left h4{
+    color: aqua;
+    font-size: 25px;
+    margin: 20px;
+}
+.content-left h1{
+    color:rgb(0,1,80);
+    font-size: 55px;
+    margin: 20px;
+}
+.content-left p{
+    color: black;
+    margin: 20px;
+}
+.content-left button{
+    background-color: black;
+    padding: 10px;
+    color:white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 50px;
+    width: 120px;
+    margin: 10px;
+}
+
+.content-left button:hover{
+    color: black;
+    background-color: rgb(0, 150, 105);
+    transition: 0.5s;
+}
+
+.content-right{
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    padding-top: 80px;
+}
+.aboutme{
+    padding: 50;
+    background-color: lightgrey;
+    text-align: center;
+}
+.card{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(40, 161, 182);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 3px 5px 5px 3px rgba(186, 226, 9, 0.507);
+}
+.card button{
+    background-color: rgb(4, 27, 241);
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 50px;
+    width: 120px;
+}
+.card:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 0.5s;
+}
+.card button:hover{
+    background-color: aqua;
+    color: rgb(48, 0, 87);
+    transition: 0.5s;
+}
+.card h2{
+    margin-bottom: 15px;
+}
+.all-cards{
+    background-color: rgb(22, 153, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherskills{
+    padding: 50px;
+    text-align: center;
+}
+
+.otherskills h1{
+    font-size: 50px;
+}
+
+.table{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 800px;
+}
+
+th{
+    padding: 18px;
+    background-color: aqua;
+}
+td{
+    padding: 10px;
+}
+
+td:hover{
+    background-color: lightgrey;
+    transition: 0.5s;
+}
+
+.project{
+    padding: 70px;
+    text-align: center;
+}
+
+.project h1{
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.footer{
+    background-color: bisque;
+    padding: 15px;
+    text-align: center;
+}
+
+.icons{
+    background-color: rgb(7, 97, 170);
+    padding: 15px;
+    text-align: center;
+}
+.icons a{
+    color: black;
+    font-size: 50px;
+    margin: 10px;
+}
+
+
+.images img:hover{
+    width: 200px;
+    height: auto;
+    transition: 0.5s;
+}
